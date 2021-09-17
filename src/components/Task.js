@@ -6,8 +6,8 @@ const Task = ({ task, index, completeTask, removeTask }) => {
       className="task"
       style={{ textDecoration: task.completed ? "line-through" : ""}}
     >
-      {task.title}
-      <div className="icons">
+      <div className="task-title">{task.title}</div>
+      <div>
         <CheckOutlined onClick={() => completeTask(index)} className="complete-icon" />
         <DeleteOutlined onClick={() => removeTask(index)} className="delete-icon" />
       </div>
