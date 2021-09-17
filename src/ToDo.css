@@ -1,0 +1,44 @@
+.todo-container {
+  background: #ffcc00;
+  width: 30vw;
+  margin: 10em auto;
+  border-radius: 15px;
+  padding: 20px 10px;
+  color: #ffffff;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+
+.complete-icon {
+  color: #0c7cfb;
+  margin-right: 0.5em;
+}
+
+.delete-icon {
+  color: #e30e0e;
+  margin-left: 0.5rem;
+}
+
+
+.header {
+  margin: 0.5em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.create-task input[type=text] {
+  margin: 2.5em 3em;
+  width: 80%;
+  outline: none;
+  border: none;
+  padding: 0.7em;
+  color: #000000;
+}
